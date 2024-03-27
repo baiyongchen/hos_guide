@@ -7,6 +7,7 @@
     "pages/guide/state_manager/StateManager3",
     "pages/guide/state_manager/StateManager4",
     "pages/guide/state_manager/StateManager5",
-    "pages/wan/WanIndex"
+    "pages/wan/WanIndex",
+    "pages/guide/condition_render/CrIfElse"
   ]
 }

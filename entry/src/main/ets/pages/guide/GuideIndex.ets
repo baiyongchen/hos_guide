@@ -92,6 +92,18 @@ struct Index {
               pressed: this.pressedStyle
             })
 
+          Text('状态管理')
+            .OneText()
+
+          Text('if/else：条件渲染')
+            .TwoText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/condition_render/CrIfElse' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
 
         }
       }
