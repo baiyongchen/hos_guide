@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "hos指南"
+    },
+    {
+      "name": "net_des",
+      "value": "使用网络权限请求数据"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Welcome",
+    "pages/guide/GuideIndex",
+    "pages/guide/state_manager/StateManager1",
+    "pages/guide/state_manager/StateManager2",
+    "pages/guide/state_manager/StateManager3",
+    "pages/guide/state_manager/StateManager4",
+    "pages/guide/state_manager/StateManager5",
+    "pages/wan/WanIndex"
+  ]
+}

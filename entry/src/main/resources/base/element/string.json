@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "HarmonyOS指南代码实例"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "hos指南代码实例主ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Hos指南"
+    }
+  ]
+}
