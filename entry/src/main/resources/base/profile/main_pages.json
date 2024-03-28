@@ -8,6 +8,10 @@
     "pages/guide/state_manager/StateManager4",
     "pages/guide/state_manager/StateManager5",
     "pages/wan/WanIndex",
-    "pages/guide/condition_render/CrIfElse"
+    "pages/guide/condition_render/CrIfElse",
+    "pages/guide/condition_render/CrForEach",
+    "pages/guide/condition_render/CrLazyForEach",
+    "pages/guide/condition_render/CrForEach1",
+    "pages/guide/condition_render/CrForEach2"
   ]
 }

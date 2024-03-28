@@ -105,6 +105,26 @@ struct Index {
               pressed: this.pressedStyle
             })
 
+          Text('ForEach：循环渲染')
+            .TwoText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/condition_render/CrForEach' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
+
+          Text('LazyForEach：数据懒加载')
+            .TwoText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/condition_render/CrLazyForEach' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
+
         }
       }
       .scrollable(ScrollDirection.Vertical)
