@@ -3,6 +3,34 @@
     {
       "name": "start_window_background",
       "value": "#FFFFFF"
+    },
+    {
+      "name": "theme_color",
+      "value": "#E63535"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "common_bg",
+      "value": "#f5f5f5"
+    },
+    {
+      "name": "text_color3",
+      "value": "#333333"
+    },
+    {
+      "name": "text_color6",
+      "value": "#666666"
+    },
+    {
+      "name": "text_color9",
+      "value": "#999999"
+    },
+    {
+      "name": "cf4f5f6",
+      "value": "#f4f5f6"
     }
   ]
 }

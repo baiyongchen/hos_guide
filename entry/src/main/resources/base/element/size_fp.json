@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "fp8",
+      "value": "8fp"
+    },
+    {
+      "name": "fp12",
+      "value": "12fp"
+    }
+  ]
+}

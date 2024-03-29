@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "match_parent",
+      "value": "100%"
+    },
+    {
+      "name": "vp100",
+      "value": "100vp"
+    },
+    {
+      "name": "vp80",
+      "value": "80vp"
+    }
+  ]
+}
