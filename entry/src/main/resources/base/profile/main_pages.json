@@ -12,6 +12,12 @@
     "pages/guide/condition_render/CrForEach",
     "pages/guide/condition_render/CrLazyForEach",
     "pages/guide/condition_render/CrForEach1",
-    "pages/guide/condition_render/CrForEach2"
+    "pages/guide/condition_render/CrForEach2",
+    "pages/guide/web/WebPage1",
+    "pages/guide/web/WebPage11",
+    "pages/guide/web/WebPage12",
+    "pages/guide/web/WebPage13",
+    "pages/guide/web/WebPage2",
+    "pages/guide/web/WebPage3"
   ]
 }

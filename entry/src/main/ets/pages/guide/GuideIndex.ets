@@ -125,6 +125,40 @@ struct Index {
               pressed: this.pressedStyle
             })
 
+          Text('Web')
+            .OneText()
+          Text('使用Web组件加载页面')
+            .TwoText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/web/WebPage1' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
+
+          Text('设置基本属性和事件')
+            .TwoText()
+
+          Text('设置深色模式')
+            .ThereText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/web/WebPage2' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
+          Text('上传文件')
+            .ThereText()
+            .onClick(() => {
+              router.pushUrl({ url: 'pages/guide/web/WebPage3' })
+            })
+            .stateStyles({
+              normal: this.normalStyle,
+              pressed: this.pressedStyle
+            })
+
         }
       }
       .scrollable(ScrollDirection.Vertical)
