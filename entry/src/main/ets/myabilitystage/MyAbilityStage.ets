@@ -1,5 +1,6 @@
 import { Net } from '@app/net/src/main/ets/utils/Net';
 import AbilityStage from '@ohos.app.ability.AbilityStage'
+import { MyNetHeaderInterceptor } from '../pages/wan/http/MyNetHeaderInterceptor';
 
 export default class MyAbilityStage extends AbilityStage {
   onCreate() {
@@ -8,7 +9,7 @@ export default class MyAbilityStage extends AbilityStage {
       connectTimeout: 10000, //连接超时，默认10秒
       readTimeout: 10000, //读取超时，默认10秒
       netErrorInterceptor: null, //全局错误拦截器，需继承INetErrorInterceptor
-      netHeaderInterceptor: null, //全局请求头拦截器，需继承INetHeaderInterceptor
+      netHeaderInterceptor: new MyNetHeaderInterceptor(), //全局请求头拦截器，需继承INetHeaderInterceptor
       header: {}, //全局统一的公共头参数
       resultTag: []//接口返回数据参数，比如data,items等等
     })

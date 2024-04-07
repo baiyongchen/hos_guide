@@ -11,5 +11,6 @@ export default class UColors {
   static readonly text_color6 = $r('app.color.text_color6')
   static readonly text_color9 = $r('app.color.text_color9')
   static readonly cf4f5f6 = $r('app.color.cf4f5f6')
+  static readonly cf5f5f5 = $r('app.color.cf5f5f5')
   static readonly white = $r('app.color.white')
 }

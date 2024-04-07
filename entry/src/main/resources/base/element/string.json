@@ -11,6 +11,18 @@
     {
       "name": "EntryAbility_label",
       "value": "Hos指南"
+    },
+    {
+      "name": "login_account_hint",
+      "value": "请输入账号"
+    },
+    {
+      "name": "login_pwd_hint",
+      "value": "请输入密码"
+    },
+    {
+      "name": "login_pwd_again_hint",
+      "value": "请再次输入密码"
     }
   ]
 }

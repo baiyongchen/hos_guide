@@ -18,6 +18,9 @@
     "pages/guide/web/WebPage12",
     "pages/guide/web/WebPage13",
     "pages/guide/web/WebPage2",
-    "pages/guide/web/WebPage3"
+    "pages/guide/web/WebPage3",
+    "pages/wan/page/user/LoginPage",
+    "pages/wan/page/user/LoginAgreementPage",
+    "pages/wan/page/user/RegisterPage"
   ]
 }

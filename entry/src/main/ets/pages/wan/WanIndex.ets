@@ -1,3 +1,5 @@
+import router from '@ohos.router';
+import { RouterUtils } from './utils/RouterUtils';
 import UColors from './utils/UColors'
 import USizes from './utils/USizes'
 
@@ -16,6 +18,7 @@ struct WanIndex {
       () => {
         if (this.downCount == 0) {
           clearInterval(this.timerId)
+          router.pushUrl({ url: RouterUtils.login })
         } else {
           this.downCount = this.downCount - 1000;
         }
