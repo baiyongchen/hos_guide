@@ -17,6 +17,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Blank', 'pages/base_widget/BlankPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Button', 'pages/base_widget/ButtonPage')
+      );
     }, 2000)
 
   }
