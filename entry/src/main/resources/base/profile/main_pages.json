@@ -21,6 +21,8 @@
     "pages/guide/web/WebPage3",
     "pages/wan/page/user/LoginPage",
     "pages/wan/page/user/LoginAgreementPage",
-    "pages/wan/page/user/RegisterPage"
+    "pages/wan/page/user/RegisterPage",
+    "pages/base_widget/BaseWidgets",
+    "pages/base_widget/AlphabetIndexerPage"
   ]
 }

@@ -14,6 +14,10 @@ struct Welcome {
       Button('使用指南').onClick(() => {
         router.pushUrl({ url: "pages/guide/GuideIndex" })
       })
+      Divider().vertical(true).height(20).color(Color.Green)
+      Button('基础组件').onClick(() => {
+        router.pushUrl({ url: "pages/base_widget/BaseWidgets" })
+      })
 
     }
     .width('100%')
