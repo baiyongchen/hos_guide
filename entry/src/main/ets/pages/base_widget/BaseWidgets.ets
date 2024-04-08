@@ -13,7 +13,10 @@ struct BaseWidgets {
     setInterval(() => {
       this.widgetsArr.push(
         new WidgetBean('AlphabetIndexer', 'pages/base_widget/AlphabetIndexerPage')
-      )
+      );
+      this.widgetsArr.push(
+        new WidgetBean('Blank', 'pages/base_widget/BlankPage')
+      );
     }, 2000)
 
   }
