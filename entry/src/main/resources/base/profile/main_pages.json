@@ -25,6 +25,7 @@
     "pages/base_widget/BaseWidgets",
     "pages/base_widget/AlphabetIndexerPage",
     "pages/base_widget/BlankPage",
-    "pages/base_widget/ButtonPage"
+    "pages/base_widget/ButtonPage",
+    "pages/base_widget/CheckboxPage"
   ]
 }

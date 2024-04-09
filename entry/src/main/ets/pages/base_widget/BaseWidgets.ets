@@ -20,6 +20,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Button', 'pages/base_widget/ButtonPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Checkbox', 'pages/base_widget/CheckboxPage')
+      );
     }, 2000)
 
   }
