@@ -23,6 +23,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Checkbox', 'pages/base_widget/CheckboxPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('CheckboxGroup', 'pages/base_widget/CheckboxGroupPage')
+      );
     }, 2000)
 
   }
