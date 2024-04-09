@@ -29,6 +29,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('DataPanel', 'pages/base_widget/DataPanelPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('DatePicker', 'pages/base_widget/DatePickerPage')
+      );
     }, 2000)
 
   }
