@@ -27,6 +27,7 @@
     "pages/base_widget/BlankPage",
     "pages/base_widget/ButtonPage",
     "pages/base_widget/CheckboxPage",
-    "pages/base_widget/CheckboxGroupPage"
+    "pages/base_widget/CheckboxGroupPage",
+    "pages/base_widget/DataPanelPage"
   ]
 }
