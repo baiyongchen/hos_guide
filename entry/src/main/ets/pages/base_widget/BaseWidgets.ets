@@ -35,6 +35,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Divider', 'pages/base_widget/DividerPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Gauge', 'pages/base_widget/GaugePage')
+      );
     }, 2000)
 
   }
