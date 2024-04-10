@@ -32,6 +32,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('DatePicker', 'pages/base_widget/DatePickerPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Divider', 'pages/base_widget/DividerPage')
+      );
     }, 2000)
 
   }

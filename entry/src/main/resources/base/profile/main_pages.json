@@ -29,6 +29,7 @@
     "pages/base_widget/CheckboxPage",
     "pages/base_widget/CheckboxGroupPage",
     "pages/base_widget/DataPanelPage",
-    "pages/base_widget/DatePickerPage"
+    "pages/base_widget/DatePickerPage",
+    "pages/base_widget/DividerPage"
   ]
 }
