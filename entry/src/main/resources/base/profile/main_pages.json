@@ -34,6 +34,7 @@
     "pages/base_widget/GaugePage",
     "pages/base_widget/ImagePage",
     "pages/base_widget/ImageAnimatorPage",
-    "pages/base_widget/LoadingProgressPage"
+    "pages/base_widget/LoadingProgressPage",
+    "pages/base_widget/MarqueePage"
   ]
 }

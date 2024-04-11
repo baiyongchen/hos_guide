@@ -48,6 +48,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('LoadingProgress', 1, 'pages/base_widget/LoadingProgressPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Marquee', 1, 'pages/base_widget/MarqueePage')
+      );
     }, 2000)
 
   }
