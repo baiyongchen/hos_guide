@@ -1,4 +1,5 @@
 import router from '@ohos.router'
+import { Level } from '@ohos/hypium'
 import { RouterUtils } from '../wan/utils/RouterUtils'
 import UColors from '../wan/utils/UColors'
 import USizes from '../wan/utils/USizes'
@@ -12,31 +13,34 @@ struct BaseWidgets {
 
     setInterval(() => {
       this.widgetsArr.push(
-        new WidgetBean('AlphabetIndexer', 'pages/base_widget/AlphabetIndexerPage')
+        new WidgetBean('AlphabetIndexer', 1, 'pages/base_widget/AlphabetIndexerPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('Blank', 'pages/base_widget/BlankPage')
+        new WidgetBean('Blank', 2, 'pages/base_widget/BlankPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('Button', 'pages/base_widget/ButtonPage')
+        new WidgetBean('Button', 3, 'pages/base_widget/ButtonPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('Checkbox', 'pages/base_widget/CheckboxPage')
+        new WidgetBean('Checkbox', 2, 'pages/base_widget/CheckboxPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('CheckboxGroup', 'pages/base_widget/CheckboxGroupPage')
+        new WidgetBean('CheckboxGroup', 2, 'pages/base_widget/CheckboxGroupPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('DataPanel', 'pages/base_widget/DataPanelPage')
+        new WidgetBean('DataPanel', 1, 'pages/base_widget/DataPanelPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('DatePicker', 'pages/base_widget/DatePickerPage')
+        new WidgetBean('DatePicker', 1, 'pages/base_widget/DatePickerPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('Divider', 'pages/base_widget/DividerPage')
+        new WidgetBean('Divider', 4, 'pages/base_widget/DividerPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('Gauge', 'pages/base_widget/GaugePage')
+        new WidgetBean('Gauge', 3, 'pages/base_widget/GaugePage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('Image', 5, 'pages/base_widget/ImagePage')
       );
     }, 2000)
 
@@ -65,6 +69,7 @@ struct BaseWidgets {
 struct BaseWidgetsItem {
   private item: WidgetBean = {
     key: 'aa',
+    leave: 0,
     pageUrl: 'bb'
   };
 
@@ -74,12 +79,15 @@ struct BaseWidgetsItem {
         .fontSize(USizes.fp14)
         .fontColor(UColors.text_color3)
         .fontWeight(FontWeight.Bold)
+      Rating({ rating: this.item.leave })
+        .stars(5)
+        .height(USizes.vp20)
     }
     .width(USizes.match_parent)
-    .height(USizes.vp50)
+    .constraintSize({ minHeight: USizes.vp50 })
     .justifyContent(FlexAlign.Center)
     .alignItems(HorizontalAlign.Start)
-    .padding({ left: USizes.vp16, right: USizes.vp16 })
+    .padding({ left: USizes.vp16, top: USizes.vp8, right: USizes.vp16, bottom: USizes.vp8 })
     .stateStyles({
       normal: {
         .backgroundColor(UColors.common_bg)
@@ -115,10 +123,12 @@ struct BaseWidgetsLoading {
 class WidgetBean {
   key: string;
   pageUrl: string;
+  leave: number;
 
-  constructor(key: string, pageUrl: string) {
+  constructor(key: string, leave: number, pageUrl: string) {
     this.key = key;
     this.pageUrl = pageUrl;
+    this.leave = leave;
   }
 }
 
