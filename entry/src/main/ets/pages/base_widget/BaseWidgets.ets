@@ -42,6 +42,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Image', 5, 'pages/base_widget/ImagePage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('ImageAnimator', 1, 'pages/base_widget/ImageAnimatorPage')
+      );
     }, 2000)
 
   }

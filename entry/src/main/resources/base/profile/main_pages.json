@@ -32,6 +32,7 @@
     "pages/base_widget/DatePickerPage",
     "pages/base_widget/DividerPage",
     "pages/base_widget/GaugePage",
-    "pages/base_widget/ImagePage"
+    "pages/base_widget/ImagePage",
+    "pages/base_widget/ImageAnimatorPage"
   ]
 }
