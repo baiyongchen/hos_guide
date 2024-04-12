@@ -43,13 +43,16 @@ struct BaseWidgets {
         new WidgetBean('Image', 5, 'pages/base_widget/ImagePage')
       );
       this.widgetsArr.push(
-        new WidgetBean('ImageAnimator', 1, 'pages/base_widget/ImageAnimatorPage')
+        new WidgetBean('ImageAnimator', 2, 'pages/base_widget/ImageAnimatorPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('LoadingProgress', 1, 'pages/base_widget/LoadingProgressPage')
+        new WidgetBean('LoadingProgress', 3, 'pages/base_widget/LoadingProgressPage')
       );
       this.widgetsArr.push(
         new WidgetBean('Marquee', 1, 'pages/base_widget/MarqueePage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('Menu/MenuItem/MenuItemGroup', 3, 'pages/base_widget/MenuAllPage')
       );
     }, 2000)
 
