@@ -57,6 +57,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Navigation(未完结)', 4, 'pages/base_widget/NavigationPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('PatternLock', 1, 'pages/base_widget/PatternLockPage')
+      );
     }, 2000)
 
   }

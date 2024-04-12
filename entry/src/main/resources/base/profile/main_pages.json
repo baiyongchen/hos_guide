@@ -37,6 +37,7 @@
     "pages/base_widget/LoadingProgressPage",
     "pages/base_widget/MarqueePage",
     "pages/base_widget/MenuAllPage",
-    "pages/base_widget/NavigationPage"
+    "pages/base_widget/NavigationPage",
+    "pages/base_widget/PatternLockPage"
   ]
 }
