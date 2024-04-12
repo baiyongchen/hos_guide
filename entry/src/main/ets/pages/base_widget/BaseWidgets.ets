@@ -54,6 +54,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Menu/MenuItem/MenuItemGroup', 3, 'pages/base_widget/MenuAllPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Navigation(未完结)', 4, 'pages/base_widget/NavigationPage')
+      );
     }, 2000)
 
   }
