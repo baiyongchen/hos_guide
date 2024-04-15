@@ -66,6 +66,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('QRCode', 4, 'pages/base_widget/QRCodePage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Radio', 4, 'pages/base_widget/RadioPage')
+      );
     }, 2000)
 
   }
