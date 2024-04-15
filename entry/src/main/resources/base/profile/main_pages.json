@@ -41,6 +41,7 @@
     "pages/base_widget/PatternLockPage",
     "pages/base_widget/ProgressPage",
     "pages/base_widget/QRCodePage",
-    "pages/base_widget/RadioPage"
+    "pages/base_widget/RadioPage",
+    "pages/base_widget/RatingPage"
   ]
 }

@@ -69,6 +69,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Radio', 4, 'pages/base_widget/RadioPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Rating', 3, 'pages/base_widget/RatingPage')
+      );
     }, 2000)
 
   }
