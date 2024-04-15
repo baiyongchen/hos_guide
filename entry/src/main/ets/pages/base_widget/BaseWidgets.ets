@@ -60,6 +60,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('PatternLock', 1, 'pages/base_widget/PatternLockPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Progress', 4, 'pages/base_widget/ProgressPage')
+      );
     }, 2000)
 
   }
