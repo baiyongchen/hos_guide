@@ -81,6 +81,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Search', 5, 'pages/base_widget/SearchPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Select', 5, 'pages/base_widget/SelectPage')
+      );
     }, 2000)
 
   }
