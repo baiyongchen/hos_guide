@@ -44,6 +44,7 @@
     "pages/base_widget/RadioPage",
     "pages/base_widget/RatingPage",
     "pages/base_widget/RichTextPage",
-    "pages/base_widget/ScrollBarPage"
+    "pages/base_widget/ScrollBarPage",
+    "pages/base_widget/SearchPage"
   ]
 }

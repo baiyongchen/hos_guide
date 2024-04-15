@@ -76,7 +76,10 @@ struct BaseWidgets {
         new WidgetBean('RichText', 4, 'pages/base_widget/RichTextPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('ScrollBar', 4, 'pages/base_widget/ScrollBarPage')
+        new WidgetBean('ScrollBar', 2, 'pages/base_widget/ScrollBarPage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('Search', 5, 'pages/base_widget/SearchPage')
       );
     }, 2000)
 
