@@ -72,6 +72,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Rating', 3, 'pages/base_widget/RatingPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('RichText', 4, 'pages/base_widget/RichTextPage')
+      );
     }, 2000)
 
   }
@@ -81,11 +84,17 @@ struct BaseWidgets {
       if (this.widgetsArr.length == 0) {
         BaseWidgetsLoading()
       } else {
-        ForEach(this.widgetsArr, (item: WidgetBean, index: number) => {
-          BaseWidgetsItem({ item: item })
-        }, (item: WidgetBean, index: number) => {
-          return item.pageUrl;
-        })
+        List() {
+          ForEach(this.widgetsArr, (item: WidgetBean, index: number) => {
+            ListItem() {
+              BaseWidgetsItem({ item: item })
+            }
+          }, (item: WidgetBean, index: number) => {
+            return item.pageUrl;
+          })
+        }
+        .width(USizes.match_parent)
+        .height(USizes.match_parent)
       }
     }
     .backgroundColor(UColors.common_bg)
