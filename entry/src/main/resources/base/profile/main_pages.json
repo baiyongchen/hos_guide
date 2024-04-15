@@ -46,6 +46,7 @@
     "pages/base_widget/RichTextPage",
     "pages/base_widget/ScrollBarPage",
     "pages/base_widget/SearchPage",
-    "pages/base_widget/SelectPage"
+    "pages/base_widget/SelectPage",
+    "pages/base_widget/SliderPage"
   ]
 }
