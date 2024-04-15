@@ -63,6 +63,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Progress', 4, 'pages/base_widget/ProgressPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('QRCode', 4, 'pages/base_widget/QRCodePage')
+      );
     }, 2000)
 
   }
