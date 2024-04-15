@@ -87,6 +87,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Slider', 5, 'pages/base_widget/SliderPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Span', 5, 'pages/base_widget/SpanPage')
+      );
     }, 2000)
 
   }
