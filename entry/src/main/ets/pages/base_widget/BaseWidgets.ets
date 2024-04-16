@@ -100,7 +100,10 @@ struct BaseWidgets {
         new WidgetBean('TextArea', 5, 'pages/base_widget/TextAreaPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('TextClock', 5, 'pages/base_widget/TextClockPage')
+        new WidgetBean('TextClock', 1, 'pages/base_widget/TextClockPage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('TextInput', 5, 'pages/base_widget/TextInputPage')
       );
     }, 2000)
 

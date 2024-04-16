@@ -52,6 +52,7 @@
     "pages/base_widget/StepperPage",
     "pages/base_widget/TextPage",
     "pages/base_widget/TextAreaPage",
-    "pages/base_widget/TextClockPage"
+    "pages/base_widget/TextClockPage",
+    "pages/base_widget/TextInputPage"
   ]
 }
