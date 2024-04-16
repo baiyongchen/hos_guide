@@ -49,6 +49,7 @@
     "pages/base_widget/SelectPage",
     "pages/base_widget/SliderPage",
     "pages/base_widget/SpanPage",
-    "pages/base_widget/StepperPage"
+    "pages/base_widget/StepperPage",
+    "pages/base_widget/TextPage"
   ]
 }
