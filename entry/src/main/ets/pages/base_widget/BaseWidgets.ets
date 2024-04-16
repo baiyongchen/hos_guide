@@ -114,6 +114,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('TimePicker', 1, 'pages/base_widget/TimePickerPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Toggle', 3, 'pages/base_widget/TogglePage')
+      );
     }, 2000)
 
   }
