@@ -96,6 +96,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('Text', 5, 'pages/base_widget/TextPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('TextArea', 5, 'pages/base_widget/TextAreaPage')
+      );
     }, 2000)
 
   }
