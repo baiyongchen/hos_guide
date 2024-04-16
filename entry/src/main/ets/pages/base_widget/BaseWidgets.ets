@@ -106,10 +106,13 @@ struct BaseWidgets {
         new WidgetBean('TextInput', 5, 'pages/base_widget/TextInputPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('TextPicker', 5, 'pages/base_widget/TextPickerPage')
+        new WidgetBean('TextPicker', 3, 'pages/base_widget/TextPickerPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('TextTimer', 5, 'pages/base_widget/TextTimerPage')
+        new WidgetBean('TextTimer', 2, 'pages/base_widget/TextTimerPage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('TimePicker', 1, 'pages/base_widget/TimePickerPage')
       );
     }, 2000)
 

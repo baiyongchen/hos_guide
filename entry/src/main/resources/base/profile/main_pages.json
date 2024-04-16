@@ -55,6 +55,7 @@
     "pages/base_widget/TextClockPage",
     "pages/base_widget/TextInputPage",
     "pages/base_widget/TextPickerPage",
-    "pages/base_widget/TextTimerPage"
+    "pages/base_widget/TextTimerPage",
+    "pages/base_widget/TimePickerPage"
   ]
 }
