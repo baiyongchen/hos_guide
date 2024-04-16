@@ -108,6 +108,9 @@ struct BaseWidgets {
       this.widgetsArr.push(
         new WidgetBean('TextPicker', 5, 'pages/base_widget/TextPickerPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('TextTimer', 5, 'pages/base_widget/TextTimerPage')
+      );
     }, 2000)
 
   }
