@@ -22,6 +22,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('CounterSplit', 3, 'pages/container_widget/CounterPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Flex', 5, 'pages/container_widget/FlexPage')
+      );
     }, 2000)
 
   }

@@ -62,6 +62,7 @@
     "pages/container_widget/BadgePage",
     "pages/container_widget/ColumnPage",
     "pages/container_widget/ColumnSplitPage",
-    "pages/container_widget/CounterPage"
+    "pages/container_widget/CounterPage",
+    "pages/container_widget/FlexPage"
   ]
 }
