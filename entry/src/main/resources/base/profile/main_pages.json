@@ -57,6 +57,8 @@
     "pages/base_widget/TextPickerPage",
     "pages/base_widget/TextTimerPage",
     "pages/base_widget/TimePickerPage",
-    "pages/base_widget/TogglePage"
+    "pages/base_widget/TogglePage",
+    "pages/container_widget/ContainerWidgets",
+    "pages/container_widget/BadgePage"
   ]
 }
