@@ -16,6 +16,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('Column', 5, 'pages/container_widget/ColumnPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('ColumnSplit', 0, 'pages/container_widget/ColumnSplitPage')
+      );
     }, 2000)
 
   }
