@@ -19,6 +19,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('ColumnSplit', 0, 'pages/container_widget/ColumnSplitPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('CounterSplit', 3, 'pages/container_widget/CounterPage')
+      );
     }, 2000)
 
   }
