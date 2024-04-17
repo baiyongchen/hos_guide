@@ -13,6 +13,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('Badge', 3, 'pages/container_widget/BadgePage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('Column', 5, 'pages/container_widget/ColumnPage')
+      );
     }, 2000)
 
   }
