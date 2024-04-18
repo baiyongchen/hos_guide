@@ -25,6 +25,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('Flex', 5, 'pages/container_widget/FlexPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('WaterFlow/FlowItem', 5, 'pages/container_widget/WaterFlowFlowItemPage')
+      );
     }, 2000)
 
   }
