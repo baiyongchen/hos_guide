@@ -29,7 +29,10 @@ struct ContainerWidgets {
         new WidgetBean('WaterFlow/FlowItem', 5, 'pages/container_widget/WaterFlowFlowItemPage')
       );
       this.widgetsArr.push(
-        new WidgetBean('GridRow/GridCol', 5, 'pages/container_widget/GridRow_GridColPage')
+        new WidgetBean('GridRow/GridCol', 3, 'pages/container_widget/GridRow_GridColPage')
+      );
+      this.widgetsArr.push(
+        new WidgetBean('Grid', 5, 'pages/container_widget/GridPage')
       );
     }, 2000)
 
