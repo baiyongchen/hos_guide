@@ -28,6 +28,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('WaterFlow/FlowItem', 5, 'pages/container_widget/WaterFlowFlowItemPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('GridRow/GridCol', 5, 'pages/container_widget/GridRow_GridColPage')
+      );
     }, 2000)
 
   }
