@@ -66,6 +66,7 @@
     "pages/container_widget/FlexPage",
     "pages/container_widget/WaterFlowFlowItemPage",
     "pages/container_widget/GridRow_GridColPage",
-    "pages/container_widget/GridPage"
+    "pages/container_widget/GridPage",
+    "pages/container_widget/GridItemPage"
   ]
 }

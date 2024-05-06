@@ -34,6 +34,9 @@ struct ContainerWidgets {
       this.widgetsArr.push(
         new WidgetBean('Grid', 5, 'pages/container_widget/GridPage')
       );
+      this.widgetsArr.push(
+        new WidgetBean('GridItem', 5, 'pages/container_widget/GridItemPage')
+      );
     }, 2000)
 
   }
